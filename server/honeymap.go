@@ -81,6 +81,7 @@ var allowed = []string{
 	"longitude2",
 	"md5",
 	"type",
+	"protocol",
 }
 
 func broadcast(input chan hpfeeds.Message) {
